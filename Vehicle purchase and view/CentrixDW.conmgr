@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="CentrixDW"
+  DTS:DTSID="{1D11DCF4-0493-4CA5-82E8-0F304BB6E265}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=ekctproject.database.windows.net;User ID=DataEng102User;Initial Catalog=CentrixDW;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3gQRDjywHkCRrcijOKcy6gAAAAACAAAAAAAQZgAAAAEAACAAAADoY6tnq0EC4lYDcEDRoG3v0ZUEGUOItS6pyaGiCVOtfQAAAAAOgAAAAAIAACAAAACFzdwulZJ8+1eh/P4P9GIGsD42R8YLk8UqXyL0jOWf/YAAAADvl+qMHg1HTdotSo8krXlR6iADWbesERW7/Og9gZhrG4U4TcJDpW66bR51VOmdk7jflI13RTWtngqUgCw+wnkNAK/LIus5G5BAx4oODzMJxw0eQjKj38sMOjuZ6JsgmfqalinckyFLGTTVZO6TTl7AR3sLBtSkNzmTWjeN/2BzJEAAAAC9OB2xpDZm61XHHPQbwWCQSIaGOQ+YKYNxaoeqMP0dirBJJ/DVL0+Rdf/8xGfdBZ3OtIqQM/FxvFzlIyclSWvr</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
